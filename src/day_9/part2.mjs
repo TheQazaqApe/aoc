@@ -6,16 +6,6 @@ import { promises as fs } from "fs";
   const arr = values.split("\n");
 
   let headPos = { x: 0, y: 0 };
-  let pos1 = { x: 0, y: 0 };
-  let pos2 = { x: 0, y: 0 };
-  let pos3 = { x: 0, y: 0 };
-  let pos4 = { x: 0, y: 0 };
-  let pos5 = { x: 0, y: 0 };
-  let pos6 = { x: 0, y: 0 };
-  let pos7 = { x: 0, y: 0 };
-  let pos8 = { x: 0, y: 0 };
-  let tailPos = { x: 0, y: 0 };
-
   const pos = [];
 
   for (let i = 0; i < 9; i++) {
